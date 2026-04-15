@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
-  char name[20];
-  printf("Enter name: ");
-  scanf("%s", name);
-  printf("Hello %s\n", name);
-  return 0;
+    char name[100];
+
+    printf("Enter input: ");
+    scanf("%99s", name);  
+
+    printf("Hello %s\n", name);
+    return 0;
 }
